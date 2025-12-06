@@ -10,7 +10,7 @@ This repository provides the implementation of **DR. WELL**, a decentralized neu
 
 DR. WELL enables embodied LLM-based agents to coordinate on shared tasks without exchanging full plans. Cooperation is achieved through symbolic actions, a compact task vocabulary, and an iterative cycle of negotiation, planning, execution, and refinement.
 
-**Paper:** [*DR. WELL: Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration*](https://narjesno.github.io/DR.WELL/)
+**Paper:** [*DR. WELL: Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration*](https://narjesno.github.io/DR.WELL/).
 
 These agents operate in the **CUBE** environment. Learn more about [CUBE: Collaborative Multi-Agent Block-Pushing Environment for Collective Planning with LLM Agents](https://happyeureka.github.io/cube/).
 

@@ -2,7 +2,7 @@
 
 **Dynamic Reasoning and Learning with a Symbolic World Model for Embodied Multi-Agent Cooperation**
 
-> 🚧 **Heads up!** We're currently cleaning up this codebase to make it more polished and easier to work with. Right now, you're looking at the raw, unfiltered version—it works, but it might be a bit messy in places. Feel free to explore and experiment, just keep in mind things are still being refined. Use at your own risk, and thanks for your patience! 😊
+> **Heads up!** We're currently cleaning up this codebase to make it more polished and easier to work with. Right now, you're looking at the raw, unfiltered version—it works, but it might be a bit messy in places. Feel free to explore and experiment, just keep in mind things are still being refined. Use at your own risk, and thanks for your patience!
 
 ## Overview
 
@@ -10,7 +10,7 @@ This repository provides the implementation of **DR. WELL**, a decentralized neu
 
 DR. WELL enables embodied LLM-based agents to coordinate on shared tasks without exchanging full plans. Cooperation is achieved through symbolic actions, a compact task vocabulary, and an iterative cycle of negotiation, planning, execution, and refinement.
 
-**Paper:** [*DR. WELL: Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration*](https://drwell-embodied-marl.github.io/)
+**Paper:** [*DR. WELL: Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration*](https://narjesno.github.io/DR.WELL/)
 
 These agents operate in the **CUBE** environment. Learn more about CUBE: https://happyeureka.github.io/cube/
 

@@ -12,7 +12,7 @@ DR. WELL enables embodied LLM-based agents to coordinate on shared tasks without
 
 **Paper:** [*DR. WELL: Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration*](https://narjesno.github.io/DR.WELL/)
 
-These agents operate in the **CUBE** environment. Learn more about CUBE: https://happyeureka.github.io/cube/
+These agents operate in the **CUBE** environment. Learn more about [CUBE: Collaborative Multi-Agent Block-Pushing Environment for Collective Planning with LLM Agents](https://happyeureka.github.io/cube/).
 
 ## Citation
 

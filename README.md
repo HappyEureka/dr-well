@@ -2,17 +2,29 @@
 
 **Dynamic Reasoning and Learning with a Symbolic World Model for Embodied Multi-Agent Cooperation**
 
-> **Heads up!** We're currently cleaning up this codebase to make it more polished and easier to work with. Right now, you're looking at the raw, unfiltered version—it works, but it might be a bit messy in places. Feel free to explore and experiment, just keep in mind things are still being refined. Use at your own risk, and thanks for your patience!
+> **Heads up!** We are currently cleaning up this codebase to make it more polished and easier to work with. The system is fully functional, but some parts are still being reorganized and streamlined. Feel free to explore and experiment, keeping in mind that things are still evolving.
 
 ## Overview
 
-This repository provides the implementation of **DR. WELL**, a decentralized neurosymbolic framework for cooperative multi-agent reasoning and execution. The system combines structured communication, symbolic planning, and a dynamic world model that evolves through experience.
+This repository contains the implementation of **DR. WELL**, a decentralized neurosymbolic framework for studying and enabling **cooperative intelligence** in embodied multi-agent systems driven by LLMs.
 
-DR. WELL enables embodied LLM-based agents to coordinate on shared tasks without exchanging full plans. Cooperation is achieved through symbolic actions, a compact task vocabulary, and an iterative cycle of negotiation, planning, execution, and refinement.
+DR. WELL is designed for settings where many agents must coordinate under embodied constraints, and where cooperation requires meaningful **individual cognitive abilities**, not just simple swarm-like rules. The framework integrates negotiation, symbolic planning, and dynamic world modeling to support scalable cooperation.
 
-**Paper:** [*DR. WELL: Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration*](https://narjesno.github.io/DR.WELL/).
+At each timestep, agents follow an iterative cycle:
 
-These agents operate in the **CUBE** environment. Learn more about [CUBE: Collaborative Multi-Agent Block-Pushing Environment for Collective Planning with LLM Agents](https://happyeureka.github.io/cube/).
+- **Joint negotiation** to propose and agree on task allocation  
+- **Individual planning** through primitive and symbolic spaces  
+- **Execution** in the embodied environment  
+- **Refinement** through feedback from a shared symbolic world model  
+
+The symbolic world model simulates partial environment feedback, updates its internal representation based on joint outcomes, and helps agents improve their cooperative strategies over time without having to exchange full plans.
+
+**DR. WELL Paper:**  
+[*Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration*](https://narjesno.github.io/DR.WELL/)
+
+DR. WELL operates within the **CUBE** environment.  
+Learn more at:  
+[*CUBE: Collaborative Multi-Agent Block-Pushing Environment for Collective Planning with LLM Agents*](https://happyeureka.github.io/cube/)
 
 ## Citation
 
